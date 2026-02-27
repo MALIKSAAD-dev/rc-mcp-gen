@@ -1,0 +1,30 @@
+{
+  "name": "rc-mcp-gen-web",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "Saad Khan",
+  "license": "MIT",
+  "description": "Web UI for the Minimal MCP Server Generator",
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.4",
+    "file-saver": "^2.0.5",
+    "gpt-tokenizer": "^3.4.0",
+    "jszip": "^3.10.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.13.1",
+    "vite": "^7.3.1"
+  },
+  "devDependencies": {
+    "@types/file-saver": "^2.0.7",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^5.9.3"
+  }
+}

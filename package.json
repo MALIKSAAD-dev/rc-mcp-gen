@@ -1,0 +1,29 @@
+{
+  "name": "rc-mcp-generator",
+  "version": "1.0.0",
+  "description": "Minimal MCP Server Generator for Rocket.Chat — generates hyper-lean MCP servers with only the API tools you need",
+  "main": "dist/index.js",
+  "bin": {
+    "rc-mcp-gen": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "generate": "ts-node src/index.ts",
+    "benchmark": "ts-node src/index.ts --benchmark --profile messaging",
+    "list": "ts-node src/index.ts --list"
+  },
+  "keywords": ["mcp", "rocket.chat", "ai", "gemini", "gsoc"],
+  "author": "Saad Khan",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "handlebars": "^4.7.8",
+    "gpt-tokenizer": "^2.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.2",
+    "@types/node": "^20.11.0"
+  }
+}
