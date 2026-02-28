@@ -85,7 +85,7 @@ export default function Setup() {
                         <div>
                             <h3>Clone &amp; install</h3>
                             <div className="code">
-                                <span className="d">$</span> <span className="g">git clone</span> https://github.com/your-repo/rc-mcp-gen<br />
+                                <span className="d">$</span> <span className="g">git clone</span> https://github.com/MALIKSAAD-dev/rc-mcp-gen<br />
                                 <span className="d">$</span> <span className="g">cd</span> rc-mcp-gen && <span className="g">npm</span> install
                             </div>
                         </div>
